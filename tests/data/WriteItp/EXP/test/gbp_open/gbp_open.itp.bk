@@ -1,5 +1,5 @@
 ; This file was generated using the following command:
-; /home/ys/anaconda3/envs/ctgomartini_test/bin/martinize2 -f ../1GGG_1_clean.pdb -o system.top -x gbp_open_cg.pdb -dssp dssp -p backbone -ff martini3001 -govs-include -govs-moltype gbp_open -cys auto
+; /home/ys/anaconda3/envs/ctgomartini_dev/bin/martinize2 -f ../1GGG_1_clean.pdb -o system.top -x gbp_open_cg.pdb -dssp dssp -p backbone -ff martini3001 -govs-include -govs-moltype gbp_open -cys auto
 ; martinize with vermouth 0.9.6
 ; The following sequence of secondary structure 
 ; was used for the full system:
