@@ -1,6 +1,6 @@
 # CTGoMartini-tests
 
-This repository contains test cases for the CTGoMartini package, which appears to be a molecular dynamics simulation framework that implements the Martini coarse-grained force field with various extensions.
+This repository contains test cases for the CTGoMartini package.
 
 ## Project Structure
 
