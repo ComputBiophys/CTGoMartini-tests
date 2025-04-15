@@ -14,6 +14,7 @@ def Angles_Dihedrals_Sort(fields, category):
             fields = fields[3::-1] + fields[4:]
     return fields
 
+
 def Comparison_Top(mbmol_ref, mbmol_test):
     categories_list = list(set(list(mbmol_ref._topology.keys()) + list(mbmol_test._topology.keys())))
     for category in categories_list:

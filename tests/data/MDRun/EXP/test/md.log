@@ -11,16 +11,16 @@ energy2 = state2_force1;
 Load checkpoint file: npt.chk
 
 Loading system finishes!
-  Start Time: 2025-04-15 11:22:02
-    End Time: 2025-04-15 11:22:02
+  Start Time: 2025-04-15 16:13:55
+    End Time: 2025-04-15 16:13:56
 Elapsed Time: 0.93
 
-Initial system energy: -110063.992 kJ/mol
+Initial system energy: -110177.333 kJ/mol
 
 Write checkpoint file: md.chk
 The task has finished!
-  Start Time: 2025-04-15 11:22:02
-    End Time: 2025-04-15 11:22:03
+  Start Time: 2025-04-15 16:13:56
+    End Time: 2025-04-15 16:13:56
 Elapsed Time: 0.11
 Loading parameters
 
@@ -35,14 +35,14 @@ energy2 = state2_force1;
 Load checkpoint file: md.chk
 
 Loading system finishes!
-  Start Time: 2025-04-15 11:22:03
-    End Time: 2025-04-15 11:22:04
-Elapsed Time: 0.94
+  Start Time: 2025-04-15 16:13:56
+    End Time: 2025-04-15 16:13:57
+Elapsed Time: 0.95
 
-Initial system energy: -110063.991 kJ/mol
+Initial system energy: -110177.335 kJ/mol
 
 Write checkpoint file: md.chk
 The task has finished!
-  Start Time: 2025-04-15 11:22:04
-    End Time: 2025-04-15 11:22:04
+  Start Time: 2025-04-15 16:13:57
+    End Time: 2025-04-15 16:13:57
 Elapsed Time: 0.11
