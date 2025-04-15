@@ -1,0 +1,48 @@
+Loading parameters
+
+Using platform: CUDA, Precision: single
+gbp uses the multiple basin potential.
+['True', 'exp', '2', '1/1000', '-50', '0']
+-1/beta * log(exp(-beta * (energy1 + C1)) + exp(-beta * (energy2 + C2)));
+energy1 = state1_force1;
+energy2 = state2_force1;
+1e-05
+
+Load checkpoint file: npt.chk
+
+Loading system finishes!
+  Start Time: 2025-04-15 11:22:02
+    End Time: 2025-04-15 11:22:02
+Elapsed Time: 0.93
+
+Initial system energy: -110063.992 kJ/mol
+
+Write checkpoint file: md.chk
+The task has finished!
+  Start Time: 2025-04-15 11:22:02
+    End Time: 2025-04-15 11:22:03
+Elapsed Time: 0.11
+Loading parameters
+
+Using platform: CUDA, Precision: single
+gbp uses the multiple basin potential.
+['True', 'exp', '2', '1/1000', '-50', '0']
+-1/beta * log(exp(-beta * (energy1 + C1)) + exp(-beta * (energy2 + C2)));
+energy1 = state1_force1;
+energy2 = state2_force1;
+1e-05
+
+Load checkpoint file: md.chk
+
+Loading system finishes!
+  Start Time: 2025-04-15 11:22:03
+    End Time: 2025-04-15 11:22:04
+Elapsed Time: 0.94
+
+Initial system energy: -110063.991 kJ/mol
+
+Write checkpoint file: md.chk
+The task has finished!
+  Start Time: 2025-04-15 11:22:04
+    End Time: 2025-04-15 11:22:04
+Elapsed Time: 0.11

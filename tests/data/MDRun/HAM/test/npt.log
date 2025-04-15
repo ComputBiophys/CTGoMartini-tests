@@ -8,3 +8,32 @@ gbp uses the multiple basin potential.
 energy1 = state1_force1;
 energy2 = state2_force1;
 1e-05
+
+Loading system finishes!
+  Start Time: 2025-04-15 11:22:04
+    End Time: 2025-04-15 11:22:05
+Elapsed Time: 0.97
+
+Initial system energy: -41665.386 kJ/mol
+
+Plan Energy minimization: 10000 steps
+Minimized system energy: -42040.844 kJ/mol
+  Start Time: 2025-04-15 11:22:05
+    End Time: 2025-04-15 11:22:06
+Elapsed Time: 0.09
+
+Generate initial velocities: 310.0 K
+
+MD run: begin 0, end 5000, total 5000
+#"Progress (%)"	"Step"	"Time (ps)"	"Potential Energy (kJ/mole)"	"Temperature (K)"	"Speed (ns/day)"	"Time Remaining"
+20.0%	1000	9.999999999999831	-111785.64318851607	308.4636355212839	0	--
+40.0%	2000	20.000000000000327	-111060.17626661962	307.8006282836769	3.24e+03	0:00
+60.0%	3000	30.00000000000189	-110606.51676587222	311.42819994668594	3.24e+03	0:00
+80.0%	4000	40.00000000000061	-111175.97033012164	307.20415527583646	3.25e+03	0:00
+100.0%	5000	49.99999999999862	-111151.61022231278	306.91796131806524	3.24e+03	0:00
+
+Write checkpoint file: npt.chk
+The task has finished!
+  Start Time: 2025-04-15 11:22:06
+    End Time: 2025-04-15 11:22:07
+Elapsed Time: 1.45
