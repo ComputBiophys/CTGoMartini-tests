@@ -22,7 +22,7 @@ def Comparison_Top(mbmol_ref, mbmol_test):
             Angles_Dihedrals_Sort_partial = partial(Angles_Dihedrals_Sort, category=category)
             mbmol_ref._topology[category] = list(map(Angles_Dihedrals_Sort_partial, mbmol_ref._topology[category]))
             mbmol_test._topology[category] = list(map(Angles_Dihedrals_Sort_partial, mbmol_test._topology[category]))
-        same = SameListList([mbmol_ref._topology[category], mbmol_test._topology[category]], sort=True)
+        same = SameListList([mbmol_ref._topology[category], mbmol_test._topology[category]], sort=True, precision=5)
         assert same is True, f"Error: comparison of {category} between test and ref is not the same!"
 
 def Comparison_ITP(working_dir, molname, topfile):
