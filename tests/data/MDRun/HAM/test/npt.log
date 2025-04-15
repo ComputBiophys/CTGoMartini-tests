@@ -1,0 +1,10 @@
+Loading parameters
+
+Using platform: CUDA, Precision: single
+Using GPU_id: 0
+gbp uses the multiple basin potential.
+['True', 'ham', '2', '1000', '-50', '0']
+(energy1+energy2+deltaV)/2 - sqrt(((energy1-energy2-deltaV)/2)^2+delta^2);deltaV=mbp_energy2-mbp_energy1;;
+energy1 = state1_force1;
+energy2 = state2_force1;
+1e-05
